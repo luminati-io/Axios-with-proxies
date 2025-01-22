@@ -64,9 +64,9 @@ axios.get(targetURL, {
 
         protocol: "http", 
 
-        host: "48.88.62.42",
+        host: "47.88.62.42",
 
-        port: "80"
+        port: 80
 
     }
 
@@ -92,19 +92,13 @@ async function testProxy() {
 
     // perform the desired request through the HTTP proxy
 
-    const response = axios.get("https://httpbin.io/ip", {
-
-        proxy: { 
-
-            protocol: "http", 
-
-            host: "52.117.157.155",
-
-            port: "8002" 
-
-        }
-
-    })
+const response = await axios.get("https://httpbin.io/ip", {
+    proxy: {  
+        protocol: "http",  
+        host: "52.117.157.155",
+        port: 8002
+    }
+});
 
     // print the result
 
