@@ -271,6 +271,24 @@ const axiosInstance = axios.create({
 })
 ```
 
+Here’s how you configure Axios to use a SOCKS proxy globally:
+
+```js
+import { SocksProxyAgent } from "socks-proxy-agent";
+
+const proxyURL = "socks://183.88.74.73:4153";
+
+// Create a SOCKS proxy agent
+const proxyAgent = new SocksProxyAgent(proxyURL);
+
+// Create an Axios instance with the SOCKS proxy
+const axiosInstance = axios.create({
+    httpAgent: proxyAgent, // for HTTP requests
+    httpsAgent: proxyAgent, // for HTTPS requests
+    // other configs...
+});
+```
+
 All requests made with `axiosInstance` will now automatically go through the specified proxy.
 
 ### Dealing With Proxy Authentication in Axios
