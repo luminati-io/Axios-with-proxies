@@ -1,6 +1,6 @@
 # Setting Up a Proxy in Axios
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/) 
+[![Promo](https://github.com/luminati-io/Rotating-Residential-Proxies/blob/main/50%25%20off%20promo.png)](https://brightdata.com/proxy-types/residential-proxies) 
 
 This Axios proxy guide covers the following topics:
 
@@ -234,6 +234,8 @@ testProxy()
 Follow the link for other examples of [how to configure a SOCKS proxy in Axios](https://writech.run/blog/how-to-use-a-socks-proxy-in-axios-6c0355a2e013/).
 
 ## Axios Proxy: Advanced Use Cases
+
+[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/proxy-types/residential-proxies) 
 
 ### Setting a Proxy Globally
 
